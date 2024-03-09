@@ -61,7 +61,7 @@ nav li.active a {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero h1 {
@@ -118,7 +118,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -209,6 +209,11 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
+footer .author{
+    font-size: 12px;
+    font-weight: bold;
+}
+
 @media (min-width: 600px) {
   h2 {
     font-size: 12px;
@@ -217,9 +222,7 @@ footer .social-links a:hover {
     margin: none;
     padding: none;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+ 
   .hero h1 {
     line-height: 2;
     font-size: 44px;
@@ -271,5 +274,10 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+
+  footer .author{
+    font-size: 8px;
+    font-weight: bold;
+}
 
 }
